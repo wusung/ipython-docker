@@ -1,0 +1,2 @@
+ipython:
+  image: ipython/notebook:latest
