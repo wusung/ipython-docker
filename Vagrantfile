@@ -71,7 +71,7 @@ Vagrant.configure(2) do |config|
     wget -qO- https://get.docker.com/ | sh
     sudo usermod -aG docker vagrant
 
-    sudo apt-get install -y libxml2-dev libxslt1-dev python-dev python3-dev libpq-dev ipython ipython-notebook python-pip python3-pip
+    sudo apt-get install -y libxml2-dev libxslt1-dev python-dev python3-dev libpq-dev ipython ipython-notebook python-pip python3-pip git
 
     sudo pip3 install -r /vagrant/requirements.txt
     sudo pip install -r /vagrant/requirements.txt
