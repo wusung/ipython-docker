@@ -1,7 +1,7 @@
 ipython:
   image: ipython/notebook:latest
   volumes:
-    - /notebooks
+    - ./notebooks:/notebooks
   ports:
     - "8888:8888"
   environment:
