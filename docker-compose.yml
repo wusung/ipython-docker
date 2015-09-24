@@ -1,2 +1,9 @@
 ipython:
   image: ipython/notebook:latest
+  volumes:
+    - /notebooks
+  ports:
+    - "8888:8888"
+  environment:
+    PASSWORD: 1234
+    USE_HTTP: 1
